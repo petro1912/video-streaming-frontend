@@ -115,6 +115,7 @@ const VerticalNavLink = ({
               logout();
               e.preventDefault()
               e.stopPropagation()
+              
               return;
             }
             if (navVisible) {
